@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1100ff;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.weather-info {
+    margin-top: 10px;
+}
+
+#temperature {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+#conditions {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0400f8;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.weather-icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+}
+
+.weather-widget {
+    position: relative;
+    /* Остальные стили без изменений */
+    size: 300px;
+}
+.play{
+    padding: 15px 30px;
+    display: flex;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.send-text{
+    background-color: #0400f8;
+    color: #ffffff;
+    border-color: #0400f8;
+    border-radius: 50px;
+}
+.text-input{
+    color:#0400f8;
+    width: 300px;
+    height: 25px;
+}
+.conter{
+    padding: 15px 30px;
+    display: flex;
+    color: rgb(55, 0, 255);
+    position:absolute;
+    right: -15px;
+    top  : 150px;
+    size: 15px;
+}
+#prenum{
+    font-size: 20px;
+}
+#num{
+    font-size: 20px;
+    color: rgb(55, 0, 255);
+}
+#succes{
+    font-size: 20px;
+    color: rgb(55, 0, 255);
+    position:absolute;
+    right: 1000px;
+    top  : 200px;
+}

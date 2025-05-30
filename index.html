@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с реальной погодой</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Висельница</div>
+        <div class="weather-info">
+            <div class="weather-icon" id="weather-icon">☀️</div>
+            <div id="temperature">--°C</div>
+            <div class="weather-info">
+                <div id="conditions">
+                    <span id="cloud-cover"></span><br>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="conter">
+            <p id="prenum">Попытки:</p>
+            <p id="num">8</p>
+        </div>
+        <div class="play">
+            <img src="" alt="">
+            <input type="text" class="text-input"></input>
+            <button class="send-text" onclick=logic()>отправить</button>
+        </div>
+        <p id="succes">Нет</p>
+
+    </main>
+
+    <footer>
+        <p>Этот проект делали школьники</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
